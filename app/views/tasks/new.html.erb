@@ -1,0 +1,9 @@
+<h1>New task</h1>
+
+<%= render 'form', task: @task %>
+
+
+<br>
+
+<%= link_to "Go back to principal menu ",
+            menu_task_path(@task) %>
